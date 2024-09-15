@@ -39,11 +39,11 @@ Install Dependencies Install the necessary dependencies for both the frontend an
 ```
 # Backend dependencies
 cd backend
-npm install
+npm install 
 
 # Frontend dependencies
 cd ../frontend
-npm install
+npm install --force
 ```
 Set Up Environment Variables Create a .env file in the backend directory and add the following variables:
 
