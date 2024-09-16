@@ -17,7 +17,7 @@ export const editUser= async (dispatch,updatedUser,userId,accessToken)=>{//just 
                 'token': `Bearer ${accessToken}`
             }
         }
-        const url=`http://localhost:5000/api/users/${userId}`;
+        const url=`${BASE_URL}/api/users/${userId}`;
         await axios.put(url,body,config)
         .then(res=>{
             // console.log(res);
