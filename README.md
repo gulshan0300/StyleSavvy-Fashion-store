@@ -66,7 +66,7 @@ The application should now be running on http://localhost:3000 (frontend) and ht
 Demo
 
 ```
-You can access a demo version of the fashion store here (replace with the actual demo link).
+You can access a demo version of the fashion store here https://style-savvy-project.netlify.app/.
 ```
 
 
